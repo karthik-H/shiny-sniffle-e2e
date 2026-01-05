@@ -1,3 +1,4 @@
 # shiny-sniffle-e2e
 
 I'm going to be taking data from my EKM  omnimeter pulse v.4. The omnimeter number is 300016966. I want to extract data from the EKM API push 3 into my cloud system. I want to get meter name, meter data, meter day of week, reading date, model, address, firmware, total watt hour, voltage, amps, total power (watts), CT ratio, frequency (hz). I was to hash SHA-256 this incoming data in my cloud with a crytographic private key. Pull data from the ekm omnimeter every 1 minute.        
+I plan on using chainlink function as oracle function and remix 1.5.1 blockchain, I plan on using this workflow to tokenize on remix test network, once token is created which equals 1 mega watt hour, i want to mint that token, once the token is minted i want to list it on uniswap test network.
