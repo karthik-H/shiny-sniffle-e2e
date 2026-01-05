@@ -13,5 +13,14 @@
     "missing_implementations": [
       "No code implementing SHA-256 hashing of incoming extracted meter data in the cloud system using a cryptographic private key was found."
     ]
+  },
+  "tokenize_and_list_meter_data": {
+    "implementation": [],
+    "missing_implementations": [
+      "Token is created when meter data equals 1 megawatt hour.",
+      "Token is minted after creation.",
+      "Token is listed on Uniswap test network after minting.",
+      "Uses Chainlink as an oracle and Remix 1.5.1 blockchain to tokenize the extracted meter data on the Remix test network."
+    ]
   }
 }
