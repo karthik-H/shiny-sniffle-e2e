@@ -1,0 +1,17 @@
+{
+  "retrieve_meter_data": {
+    "implementation": [],
+    "missing_implementations": [
+      "Extracts specified data fields from the EKM Omnimeter Pulse v.4 using the EKM API Push 3 and imports them into the cloud system.",
+      "Extracted fields include meter name, meter data, meter day of week, reading date, model, address, firmware, total watt hour, voltage, amps, total power (watts), CT ratio, and frequency (hz).",
+      "Data is pulled from the EKM Omnimeter every 1 minute.",
+      "The omnimeter number is 300016966."
+    ]
+  },
+  "hash_incoming_data": {
+    "implementation": [],
+    "missing_implementations": [
+      "No code implementing SHA-256 hashing of incoming extracted meter data in the cloud system using a cryptographic private key was found."
+    ]
+  }
+}
