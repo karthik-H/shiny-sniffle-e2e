@@ -8,16 +8,27 @@
         "Data is pulled from the EKM Omnimeter every 1 minute.",
         "The omnimeter number is 300016966."
       ],
-      "change_status": "new"
+      "change_status": ""
     },
     {
       "id": "hash_incoming_data",
       "header": "Hash Incoming Meter Data",
       "description": "Applies SHA-256 hashing to the incoming extracted meter data in the cloud system using a cryptographic private key.",
       "conditions": [],
+      "change_status": ""
+    },
+    {
+      "id": "tokenize_and_list_meter_data",
+      "header": "Tokenize and List Meter Data",
+      "description": "Uses Chainlink as an oracle and Remix 1.5.1 blockchain to tokenize the extracted meter data on the Remix test network. Once a token representing 1 megawatt hour is created, it is minted and then listed on the Uniswap test network.",
+      "conditions": [
+        "Token is created when meter data equals 1 megawatt hour.",
+        "Token is minted after creation.",
+        "Token is listed on Uniswap test network after minting."
+      ],
       "change_status": "new"
     }
   ],
-  "last_updated": "2026-01-05T02:48:37.323444",
+  "last_updated": "2026-01-05T02:54:00.828877",
   "version": "1.0"
 }
